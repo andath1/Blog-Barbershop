@@ -11214,6 +11214,7 @@ a {
 .button {
   background-color: #6C6E70;
   color: #fff;
+  border-radius: 30px;
 }
 .button--small {
   padding: 9px 16px;
@@ -11225,7 +11226,7 @@ a {
   background-color: #D1D1D1;
 }
 .button:focus {
-  border-color: #E6E7E7;
+  box-shadow: #E6E7E7;
 }
 
 .page-link {
@@ -11235,9 +11236,14 @@ a {
   border-radius: rounded-pill;
 }
 
-.ulcontacto {
-  border-radius: rounded-circle;
-  border-radius: rounded-pill;
+.bor-izq {
+  border-top-left-radius: 10.25rem;
+  border-bottom-left-radius: 11.25rem;
+}
+
+.bor-der {
+  border-top-right-radius: 10.25rem;
+  border-bottom-right-radius: 11.25rem;
 }
 
 .page-link {

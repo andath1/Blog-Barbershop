@@ -5,9 +5,14 @@
     border-radius: rounded-pill;
 }
 
-.ulcontacto {
-    border-radius: rounded-circle;
-    border-radius: rounded-pill;
+.bor-izq {
+    border-top-left-radius: 10.25rem;
+    border-bottom-left-radius: 11.25rem;
+}
+
+.bor-der {
+    border-top-right-radius: 10.25rem;
+    border-bottom-right-radius: 11.25rem;
 }
 
 .page-link {

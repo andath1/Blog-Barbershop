@@ -1,6 +1,7 @@
 .button {
     background-color: $nickel;
     color: $white;
+    border-radius: 30px;
     &--small {
         padding: 9px 16px;
     }
@@ -11,6 +12,6 @@
         background-color: $light-gray;
     }
     &:focus {
-        border-color: $platinum;
+        box-shadow: $platinum;
     }
 }
