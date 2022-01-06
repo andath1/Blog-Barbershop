@@ -1,0 +1,14 @@
+ .navbar {
+     background-color: $eerie-black;
+ }
+ 
+ .logo {
+     width: 70px;
+ }
+ 
+ .alink {
+     color: $white;
+     &:hover {
+         color: $ruddy-pink;
+     }
+ }

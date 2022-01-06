@@ -1,0 +1,28 @@
+.page-link {
+    color: $nickel;
+    font-weight: $medio;
+    font-family: $roboto;
+    border-radius: rounded-pill;
+}
+
+.ulcontacto {
+    border-radius: rounded-circle;
+    border-radius: rounded-pill;
+}
+
+.page-link {
+    color: $eerie-black;
+    &--small {
+        padding: 9px 16px;
+    }
+    &--medio {
+        padding: 13px 19px;
+    }
+    &:hover {
+        background-color: $nickel;
+        color: $white;
+    }
+    &:focus {
+        border-color: $platinum;
+    }
+}
